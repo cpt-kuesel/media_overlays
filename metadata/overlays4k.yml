@@ -1,6 +1,7 @@
 ### ISO-Language codes (https://www.loc.gov/standards/iso639-2/php/code_list.php) in my library:
-# de  |  German
 # en  |  English
+# fr  |  French
+# de  |  German
 ### Flags for Overlays -> https://www.countries-ofthe-world.com/flags-of-the-world.html
 
 templates:
