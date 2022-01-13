@@ -11,8 +11,9 @@ For now I provide single language and dual language overlays, as they cover my n
 
 Disclaimers:
 I use flags from the website: https://www.countries-ofthe-world.com/flags-of-the-world.html
+
 This is the image I used to create the 4k/HDR icons for my overlay: https://currys-ssl.cdn.dixons.com/css/themes/sony_2018/4k_hdr/images/bravia-logo-4khdr.png
 
 
-My overlays v2 in action:
+My Overlays in action:
 ![overlays v2](overlays_v2.png)
