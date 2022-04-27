@@ -1,0 +1,11 @@
+external_templates:
+  - file: config/overlays/orchestration/templates/_labels.yml
+collections:
+  default_position_single:
+    template: {name: default_position_labels, type: episodes, label: single, default_labels: "single1"}
+  default_positions_dual:
+    template: {name: default_position_labels, type: episodes, label: dual,   default_labels: "dual1, dual24"}
+  default_positions_triple:
+    template: {name: default_position_labels, type: episodes, label: triple, default_labels: "triple1, triple24, triple23"}
+  default_positions_quad:
+    template: {name: default_position_labels, type: episodes, label: quad,   default_labels: "quad1, quad24, quad23, quad22"}

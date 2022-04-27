@@ -1,0 +1,89 @@
+external_templates:
+  - file: config/overlays/orchestration/templates/_items.yml
+    template_variables:
+      count_gte: 1
+      count_lt: 2
+  - file: config/overlays/orchestration/templates/_overlays.yml
+    template_variables:
+      positions: single8
+      folder: posters
+      positionX: 750
+      positionY: 600
+      spot: spot8
+overlays:
+  movies_german_single8:
+    template:
+      - {name: items, type: movies, language: de}
+      - {name: german, type: movies, file: german}
+  # movies_english_single8:
+  #   template:
+  #     - {name: items, type: movies, language: en}
+  #     - {name: english, type: movies, file: english}
+  # movies_french_single8:
+  #   template:
+  #     - {name: items, type: movies, language: fr}
+  #     - {name: french, type: movies, file: french}
+  # movies_japanese_single8:
+  #   template:
+  #     - {name: items, type: movies, language: ja}
+  #     - {name: japanese, type: movies, file: japanese}
+  # movies_korean_single8:
+  #   template:
+  #     - {name: items, type: movies, language: ko}
+  #     - {name: korean, type: movies, file: korean}
+  # movies_chinese_single8:
+  #   template:
+  #     - {name: items, type: movies, language: zh}
+  #     - {name: chinese, type: movies, file: chinese}
+  # movies_danish_single8:
+  #   template:
+  #     - {name: items, type: movies, language: da}
+  #     - {name: danish, type: movies, file: danish}
+  # movies_russian_single8:
+  #   template:
+  #     - {name: items, type: movies, language: ru}
+  #     - {name: russian, type: movies, file: russian}
+  # movies_spanish_single8:
+  #   template:
+  #     - {name: items, type: movies, language: es}
+  #     - {name: spanish, type: movies, file: spanish}
+  # movies_italian_single8:
+  #   template:
+  #     - {name: items, type: movies, language: it}
+  #     - {name: italian, type: movies, file: italian}
+  # movies_dutch_single8:
+  #   template:
+  #     - {name: items, type: movies, language: nl}
+  #     - {name: dutch, type: movies, file: dutch}
+  # movies_indian_hindi_single8:
+  #   template:
+  #     - {name: items, type: movies, language: hi}
+  #     - {name: indian_hindi, type: movies, file: indian}
+  # movies_indian_telugu_single8:
+  #   template:
+  #     - {name: items, type: movies, language: te}
+  #     - {name: indian_telugu, type: movies, file: indian}
+  # movies_iranian_farsi_single8:
+  #   template:
+  #     - {name: items, type: movies, language: fa}
+  #     - {name: iranian_farsi, type: movies, file: iranian}
+  # movies_thai_single8:
+  #   template:
+  #     - {name: items, type: movies, language: th}
+  #     - {name: thai, type: movies, file: thai}
+  # movies_norwegian_single8:
+  #   template:
+  #     - {name: items, type: movies, language: no}
+  #     - {name: norwegian, type: movies, file: norwegian}
+  # movies_icelandic_single8:
+  #   template:
+  #     - {name: items, type: movies, language: is}
+  #     - {name: icelandic, type: movies, file: icelandic}
+  # movies_swedish_single8:
+  #   template:
+  #     - {name: items, type: movies, language: sv}
+  #     - {name: swedish, type: movies, file: swedish}
+  # movies_turkish_single8:
+  #   template:
+  #     - {name: items, type: movies, language: tr}
+  #     - {name: turkish, type: movies, file: turkish}

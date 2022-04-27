@@ -1,0 +1,19 @@
+external_templates:
+  - file: config/overlays/orchestration/templates/_labels.yml
+collections:
+  single_labels:
+    template: {name: position_labels, label: single, hide_label: admin}
+  dual_labels:
+    template: {name: position_labels, label: dual, hide_label: admin}
+  triple_labels:
+    template: {name: position_labels, label: triple, hide_label: admin}
+  quad_labels:
+    template: {name: position_labels, label: quad, hide_label: admin}
+  default_position_single:
+    template: {name: default_position_labels, type: movies, label: single, default_labels: single22}
+  default_positions_dual:
+    template: {name: default_position_labels, type: movies, label: dual, default_labels: "dual21, dual22"}
+  default_positions_triple:
+    template: {name: default_position_labels, type: movies, label: triple, default_labels: "triple20, triple21, triple22"}
+  default_positions_quad:
+    template: {name: default_position_labels, type: movies, label: quad, default_labels: "quad19, quad20, quad21, quad22"}

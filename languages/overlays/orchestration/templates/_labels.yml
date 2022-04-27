@@ -1,0 +1,66 @@
+templates:
+  position_labels:
+    optional:
+      - label
+      - hide_label #if you dont want the users to see these, add a label that you have added to their exclusion list
+    blank_collection: true
+    label:
+      - <<label>>1
+      - <<label>>2
+      - <<label>>3
+      - <<label>>4
+      - <<label>>5
+      - <<label>>6
+      - <<label>>7
+      - <<label>>8
+      - <<label>>9
+      - <<label>>10
+      - <<label>>11
+      - <<label>>12
+      - <<label>>13
+      - <<label>>14
+      - <<label>>15
+      - <<label>>16
+      - <<label>>17
+      - <<label>>18
+      - <<label>>19
+      - <<label>>20
+      - <<label>>21
+      - <<label>>22
+      - <<label>>23
+      - <<label>>24
+      - <<hide_label>>
+  default_position_labels:
+    optional:
+      - type
+      - label
+      - default_labels
+    build_collection: false
+    plex_search:
+      type: <<type>>
+      label.not:
+        - <<label>>1
+        - <<label>>2
+        - <<label>>3
+        - <<label>>4
+        - <<label>>5
+        - <<label>>6
+        - <<label>>7
+        - <<label>>8
+        - <<label>>9
+        - <<label>>10
+        - <<label>>11
+        - <<label>>12
+        - <<label>>13
+        - <<label>>14
+        - <<label>>15
+        - <<label>>16
+        - <<label>>17
+        - <<label>>18
+        - <<label>>19
+        - <<label>>20
+        - <<label>>21
+        - <<label>>22
+        - <<label>>23
+        - <<label>>24
+    item_label: <<default_labels>>

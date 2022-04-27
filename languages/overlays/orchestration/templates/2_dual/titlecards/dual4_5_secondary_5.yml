@@ -1,0 +1,89 @@
+external_templates:
+  - file: config/overlays/orchestration/templates/_items.yml
+    template_variables:
+      count_gte: 2
+      count_lt: 3
+  - file: config/overlays/orchestration/templates/_overlays.yml
+    template_variables:
+      positions: "dual4,dual5"
+      folder: titlecards
+      positionX: 960
+      positionY: 0
+      spot: spot5
+overlays:
+  <<type>>_german_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: de}
+      - {name: german, type: <<type>>, file: german}
+  <<type>>_english_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: en}
+      - {name: english, type: <<type>>, file: english}
+  <<type>>_french_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: fr}
+      - {name: french, type: <<type>>, file: french}
+  <<type>>_japanese_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: ja}
+      - {name: japanese, type: <<type>>, file: japanese}
+  <<type>>_korean_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: ko}
+      - {name: korean, type: <<type>>, file: korean}
+  <<type>>_chinese_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: zh}
+      - {name: chinese, type: <<type>>, file: chinese}
+  <<type>>_danish_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: da}
+      - {name: danish, type: <<type>>, file: danish}
+  <<type>>_russian_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: ru}
+      - {name: russian, type: <<type>>, file: russian}
+  <<type>>_spanish_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: es}
+      - {name: spanish, type: <<type>>, file: spanish}
+  <<type>>_italian_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: it}
+      - {name: italian, type: <<type>>, file: italian}
+  <<type>>_dutch_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: nl}
+      - {name: dutch, type: <<type>>, file: dutch}
+  <<type>>_indian_hindi_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: hi}
+      - {name: indian_hindi, type: <<type>>, file: indian}
+  <<type>>_indian_telugu_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: te}
+      - {name: indian_telugu, type: <<type>>, file: indian}
+  <<type>>_iranian_farsi_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: fa}
+      - {name: iranian_farsi, type: <<type>>, file: iranian}
+  <<type>>_thai_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: th}
+      - {name: thai, type: <<type>>, file: thai}
+  <<type>>_norwegian_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: no}
+      - {name: norwegian, type: <<type>>, file: norwegian}
+  <<type>>_icelandic_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: is}
+      - {name: icelandic, type: <<type>>, file: icelandic}
+  <<type>>_swedish_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: sv}
+      - {name: swedish, type: <<type>>, file: swedish}
+  <<type>>_turkish_dual4_5_spot5:
+    template:
+      - {name: items, type: <<type>>, language: tr}
+      - {name: turkish, type: <<type>>, file: turkish}

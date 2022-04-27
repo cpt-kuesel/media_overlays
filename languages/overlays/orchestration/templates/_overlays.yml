@@ -1,0 +1,254 @@
+## ISO-Language codes (https://www.loc.gov/standards/iso639-2/php/code_list.php) ###############
+#  de  | dual - 99 /  1 | triple - 99 / 19 /  1 | quad - 99 /  1 /  1 /  1 |  German           #
+#  en  | dual - 98 /  2 | triple - 98 / 18 /  2 | quad - 98 /  2 /  2 /  2 |  English          #
+#  fr  | dual - 97 /  3 | triple - 97 / 17 /  3 | quad - 97 /  3 /  3 /  3 |  French           #
+#  ja  | dual - 96 /  4 | triple - 96 / 16 /  4 | quad - 96 /  4 /  4 /  4 |  Japanese         #
+#  ko  | dual - 95 /  5 | triple - 95 / 15 /  5 | quad - 95 /  5 /  5 /  5 |  Korean           #
+#  zh  | dual - 94 /  6 | triple - 94 / 14 /  6 | quad - 94 /  6 /  6 /  6 |  Chinese          #
+#  da  | dual - 93 /  7 | triple - 93 / 13 /  7 | quad - 93 /  7 /  7 /  7 |  Danish           #
+#  ru  | dual - 92 /  8 | triple - 92 / 12 /  8 | quad - 92 /  8 /  8 /  8 |  Russian          #
+#  es  | dual - 91 /  9 | triple - 91 / 11 /  9 | quad - 91 /  9 /  9 /  9 |  Spanish          #
+#  it  | dual - 90 / 10 | triple - 90 / 10 / 10 | quad - 90 / 10 / 10 / 10 |  Italian          #
+#  nl  | dual - 89 / 11 | triple - 89 /  9 / 11 | quad - 89 / 11 / 11 / 11 |  Dutch            #
+#  hi  | dual - 88 / 12 | triple - 88 /  8 / 12 | quad - 88 / 12 / 12 / 12 |  Indian (Hindi)   #
+#  te  | dual - 87 / 13 | triple - 87 /  7 / 13 | quad - 87 / 13 / 13 / 13 |  Indian (Telugu)  #
+#  fa  | dual - 86 / 14 | triple - 86 /  6 / 14 | quad - 86 / 14 / 14 / 14 |  Iranian (Farsi)  #
+#  th  | dual - 85 / 15 | triple - 85 /  5 / 15 | quad - 85 / 15 / 15 / 15 |  Thai             #
+#  no  | dual - 84 / 16 | triple - 84 /  4 / 16 | quad - 84 / 16 / 16 / 16 |  Norwegian        #
+#  is  | dual - 83 / 17 | triple - 83 /  3 / 17 | quad - 83 / 17 / 17 / 17 |  Icelandic        #
+#  sv  | dual - 82 / 18 | triple - 82 /  2 / 18 | quad - 82 / 18 / 18 / 18 |  Swedish          #
+#  tr  | dual - 81 / 19 | triple - 81 /  1 / 19 | quad - 81 / 19 / 19 / 19 |  Turkish          #
+# hdr  | dual -  2 / 98 | triple -  2 /  2 / 98 | quad -  2 /  2 /  2 / 98 |  HDR-Content      #
+#  4k  | dual -  1 / 99 | triple -  1 /  1 / 99 | quad -  1 /  1 /  1 / 99 |  4k-Content       #
+## Overlay-Flags (https://www.countries-ofthe-world.com/flags-of-the-world.html) ###############
+templates:
+  german:
+    default:
+      weight: 99
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_german_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  english:
+    default:
+      weight: 98
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_english_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  french:
+    default:
+      weight: 97
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_french_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  japanese:
+    default:
+      weight: 96
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_japanese_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  korean:
+    default:
+      weight: 95
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_korean_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  chinese:
+    default:
+      weight: 94
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_chinese_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  danish:
+    default:
+      weight: 93
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_danish_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  russian:
+    default:
+      weight: 92
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_russian_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  spanish:
+    default:
+      weight: 91
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_spanish_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  italian:
+    default:
+      weight: 90
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_italian_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  dutch:
+    default:
+      weight: 89
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_dutch_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  indian_hindi:
+    default:
+      weight: 88
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_indian_hindi_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  indian_telugu:
+    default:
+      weight: 87
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_indian_telugu_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  iranian_farsi:
+    default:
+      weight: 86
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_iranian_farsi_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  thai:
+    default:
+      weight: 85
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_thai_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  norwegian:
+    default:
+      weight: 84
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_norwegian_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  icelandic:
+    default:
+      weight: 83
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_icelandic_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  swedish:
+    default:
+      weight: 82
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_swedish_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  turkish:
+    default:
+      weight: 81
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_turkish_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  4k:
+    default:
+      weight: 50
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_4k_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>
+
+  hdr:
+    default:
+      weight: 49
+    overlay:
+      name: <<type>>_<<folder>>_{<<positions>>}_hdr_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/<<file>>.png
+      weight: <<weight>>
+      group: <<spot>>
+      x_coordinate: <<positionX>>
+      y_coordinate: <<positionY>>

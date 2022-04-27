@@ -1,0 +1,13 @@
+templates:
+  items:
+    optional:
+      - type
+      - language
+    plex_search:
+      type: <<type>>
+      all:
+        audio_language: <<language>>
+        label: <<positions>>
+    filters:
+      audio_language.count_gte: <<count_gte>>
+      audio_language.count_lt: <<count_lt>>
