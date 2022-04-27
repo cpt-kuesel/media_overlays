@@ -1,0 +1,2 @@
+overlay_name,position,mode,add_4k,add_hdr,option,spot_1,spot_3,spot_4,spot_2,spot_5,spot_6,top,right,bottom,left,vis_1,vis_3,vis_4,vis_2,vis_5,vis_6,pix_1,pix_3,pix_4,pix_2,pix_5,pix_6
+top_dl_german_icelandic-overlay,top,dl,false,false,standard,none,german,icelandic,none,none,none,true,false,false,false,false,true,true,false,false,false,none.png,flags/german.png,flags/icelandic.png,none.png,none.png,none.png
