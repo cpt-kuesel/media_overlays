@@ -1,3 +1,20 @@
+# Overlay distribution with Cpt Kuesels default config
+#  In this file the configs are for: spot14
+#
+#  ______ ______ ______ ______ ______ ______ ______ ______
+# |spot1 |spot2 |spot3 |spot4 |spot5 |spot6 |spot7 |spot8 |
+# |______|______|______|______|______|______|______|______|
+# |spot24|                                         |spot9 |
+# |______|                                         |______|
+# |spot23|                                         |spot10|
+# |______|                                         |______|
+# |spot22|                                         |spot11|
+# |______|                                         |______|
+# |spot21|                                         |spot12|
+# |______|______ ______ ______ ______ ______ ______|______|
+# |spot20|spot19|spot18|spot17|spot16|spot15|spot14|spot13|
+# |______|______|______|______|______|______|______|______|
+
 external_templates:
   - file: config/overlays/orchestration/templates/_items.yml
     template_variables:
