@@ -30,77 +30,77 @@ external_templates:
 overlays:
   <<type>>_german_single8:
     template:
-      - {name: items, type: <<type>>, language: de}
+      - {name: <<item_types>>_items, type: <<type>>, language: de}
       - {name: german, type: <<type>>, file: german}
   <<type>>_english_single8:
     template:
-      - {name: items, type: <<type>>, language: en}
+      - {name: <<item_types>>_items, type: <<type>>, language: en}
       - {name: english, type: <<type>>, file: english}
   <<type>>_french_single8:
     template:
-      - {name: items, type: <<type>>, language: fr}
+      - {name: <<item_types>>_items, type: <<type>>, language: fr}
       - {name: french, type: <<type>>, file: french}
   <<type>>_japanese_single8:
     template:
-      - {name: items, type: <<type>>, language: ja}
+      - {name: <<item_types>>_items, type: <<type>>, language: ja}
       - {name: japanese, type: <<type>>, file: japanese}
   <<type>>_korean_single8:
     template:
-      - {name: items, type: <<type>>, language: ko}
+      - {name: <<item_types>>_items, type: <<type>>, language: ko}
       - {name: korean, type: <<type>>, file: korean}
   <<type>>_chinese_single8:
     template:
-      - {name: items, type: <<type>>, language: zh}
+      - {name: <<item_types>>_items, type: <<type>>, language: zh}
       - {name: chinese, type: <<type>>, file: chinese}
   <<type>>_danish_single8:
     template:
-      - {name: items, type: <<type>>, language: da}
+      - {name: <<item_types>>_items, type: <<type>>, language: da}
       - {name: danish, type: <<type>>, file: danish}
   <<type>>_russian_single8:
     template:
-      - {name: items, type: <<type>>, language: ru}
+      - {name: <<item_types>>_items, type: <<type>>, language: ru}
       - {name: russian, type: <<type>>, file: russian}
   <<type>>_spanish_single8:
     template:
-      - {name: items, type: <<type>>, language: es}
+      - {name: <<item_types>>_items, type: <<type>>, language: es}
       - {name: spanish, type: <<type>>, file: spanish}
   <<type>>_italian_single8:
     template:
-      - {name: items, type: <<type>>, language: it}
+      - {name: <<item_types>>_items, type: <<type>>, language: it}
       - {name: italian, type: <<type>>, file: italian}
   <<type>>_dutch_single8:
     template:
-      - {name: items, type: <<type>>, language: nl}
+      - {name: <<item_types>>_items, type: <<type>>, language: nl}
       - {name: dutch, type: <<type>>, file: dutch}
   <<type>>_indian_hindi_single8:
     template:
-      - {name: items, type: <<type>>, language: hi}
+      - {name: <<item_types>>_items, type: <<type>>, language: hi}
       - {name: indian_hindi, type: <<type>>, file: indian}
   <<type>>_indian_telugu_single8:
     template:
-      - {name: items, type: <<type>>, language: te}
+      - {name: <<item_types>>_items, type: <<type>>, language: te}
       - {name: indian_telugu, type: <<type>>, file: indian}
   <<type>>_iranian_farsi_single8:
     template:
-      - {name: items, type: <<type>>, language: fa}
+      - {name: <<item_types>>_items, type: <<type>>, language: fa}
       - {name: iranian_farsi, type: <<type>>, file: iranian}
   <<type>>_thai_single8:
     template:
-      - {name: items, type: <<type>>, language: th}
+      - {name: <<item_types>>_items, type: <<type>>, language: th}
       - {name: thai, type: <<type>>, file: thai}
   <<type>>_norwegian_single8:
     template:
-      - {name: items, type: <<type>>, language: no}
+      - {name: <<item_types>>_items, type: <<type>>, language: no}
       - {name: norwegian, type: <<type>>, file: norwegian}
   <<type>>_icelandic_single8:
     template:
-      - {name: items, type: <<type>>, language: is}
+      - {name: <<item_types>>_items, type: <<type>>, language: is}
       - {name: icelandic, type: <<type>>, file: icelandic}
   <<type>>_swedish_single8:
     template:
-      - {name: items, type: <<type>>, language: sv}
+      - {name: <<item_types>>_items, type: <<type>>, language: sv}
       - {name: swedish, type: <<type>>, file: swedish}
   <<type>>_turkish_single8:
     template:
-      - {name: items, type: <<type>>, language: tr}
+      - {name: <<item_types>>_items, type: <<type>>, language: tr}
       - {name: turkish, type: <<type>>, file: turkish}

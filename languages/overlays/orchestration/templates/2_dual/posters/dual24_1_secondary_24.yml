@@ -38,77 +38,77 @@ external_templates:
 overlays:
   <<type>>_german_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: de}
+      - {name: <<item_types>>_items, type: <<type>>, language: de}
       - {name: german, type: <<type>>, file: german, weight: 1}
   <<type>>_english_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: en}
+      - {name: <<item_types>>_items, type: <<type>>, language: en}
       - {name: english, type: <<type>>, file: english, weight: 2}
   <<type>>_french_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: fr}
+      - {name: <<item_types>>_items, type: <<type>>, language: fr}
       - {name: french, type: <<type>>, file: french, weight: 3}
   <<type>>_japanese_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: ja}
+      - {name: <<item_types>>_items, type: <<type>>, language: ja}
       - {name: japanese, type: <<type>>, file: japanese, weight: 4}
   <<type>>_korean_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: ko}
+      - {name: <<item_types>>_items, type: <<type>>, language: ko}
       - {name: korean, type: <<type>>, file: korean, weight: 5}
   <<type>>_chinese_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: zh}
+      - {name: <<item_types>>_items, type: <<type>>, language: zh}
       - {name: chinese, type: <<type>>, file: chinese, weight: 6}
   <<type>>_danish_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: da}
+      - {name: <<item_types>>_items, type: <<type>>, language: da}
       - {name: danish, type: <<type>>, file: danish, weight: 7}
   <<type>>_russian_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: ru}
+      - {name: <<item_types>>_items, type: <<type>>, language: ru}
       - {name: russian, type: <<type>>, file: russian, weight: 8}
   <<type>>_spanish_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: es}
+      - {name: <<item_types>>_items, type: <<type>>, language: es}
       - {name: spanish, type: <<type>>, file: spanish, weight: 9}
   <<type>>_italian_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: it}
+      - {name: <<item_types>>_items, type: <<type>>, language: it}
       - {name: italian, type: <<type>>, file: italian, weight: 10}
   <<type>>_dutch_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: nl}
+      - {name: <<item_types>>_items, type: <<type>>, language: nl}
       - {name: dutch, type: <<type>>, file: dutch, weight: 11}
   <<type>>_indian_hindi_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: hi}
+      - {name: <<item_types>>_items, type: <<type>>, language: hi}
       - {name: indian_hindi, type: <<type>>, file: indian, weight: 12}
   <<type>>_indian_telugu_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: te}
+      - {name: <<item_types>>_items, type: <<type>>, language: te}
       - {name: indian_telugu, type: <<type>>, file: indian, weight: 13}
   <<type>>_iranian_farsi_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: fa}
+      - {name: <<item_types>>_items, type: <<type>>, language: fa}
       - {name: iranian_farsi, type: <<type>>, file: iranian, weight: 14}
   <<type>>_thai_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: th}
+      - {name: <<item_types>>_items, type: <<type>>, language: th}
       - {name: thai, type: <<type>>, file: thai, weight: 15}
   <<type>>_norwegian_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: no}
+      - {name: <<item_types>>_items, type: <<type>>, language: no}
       - {name: norwegian, type: <<type>>, file: norwegian, weight: 16}
   <<type>>_icelandic_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: is}
+      - {name: <<item_types>>_items, type: <<type>>, language: is}
       - {name: icelandic, type: <<type>>, file: icelandic, weight: 17}
   <<type>>_swedish_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: sv}
+      - {name: <<item_types>>_items, type: <<type>>, language: sv}
       - {name: swedish, type: <<type>>, file: swedish, weight: 18}
   <<type>>_turkish_dual24_1_spot24:
     template:
-      - {name: items, type: <<type>>, language: tr}
+      - {name: <<item_types>>_items, type: <<type>>, language: tr}
       - {name: turkish, type: <<type>>, file: turkish, weight: 19}
