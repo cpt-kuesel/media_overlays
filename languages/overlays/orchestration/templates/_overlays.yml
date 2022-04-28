@@ -1,26 +1,39 @@
-## ISO-Language codes (https://www.loc.gov/standards/iso639-2/php/code_list.php) ###############
-#  de  | dual - 99 /  1 | triple - 99 / 19 /  1 | quad - 99 /  1 /  1 /  1 |  German           #
-#  en  | dual - 98 /  2 | triple - 98 / 18 /  2 | quad - 98 /  2 /  2 /  2 |  English          #
-#  fr  | dual - 97 /  3 | triple - 97 / 17 /  3 | quad - 97 /  3 /  3 /  3 |  French           #
-#  ja  | dual - 96 /  4 | triple - 96 / 16 /  4 | quad - 96 /  4 /  4 /  4 |  Japanese         #
-#  ko  | dual - 95 /  5 | triple - 95 / 15 /  5 | quad - 95 /  5 /  5 /  5 |  Korean           #
-#  zh  | dual - 94 /  6 | triple - 94 / 14 /  6 | quad - 94 /  6 /  6 /  6 |  Chinese          #
-#  da  | dual - 93 /  7 | triple - 93 / 13 /  7 | quad - 93 /  7 /  7 /  7 |  Danish           #
-#  ru  | dual - 92 /  8 | triple - 92 / 12 /  8 | quad - 92 /  8 /  8 /  8 |  Russian          #
-#  es  | dual - 91 /  9 | triple - 91 / 11 /  9 | quad - 91 /  9 /  9 /  9 |  Spanish          #
-#  it  | dual - 90 / 10 | triple - 90 / 10 / 10 | quad - 90 / 10 / 10 / 10 |  Italian          #
-#  nl  | dual - 89 / 11 | triple - 89 /  9 / 11 | quad - 89 / 11 / 11 / 11 |  Dutch            #
-#  hi  | dual - 88 / 12 | triple - 88 /  8 / 12 | quad - 88 / 12 / 12 / 12 |  Indian (Hindi)   #
-#  te  | dual - 87 / 13 | triple - 87 /  7 / 13 | quad - 87 / 13 / 13 / 13 |  Indian (Telugu)  #
-#  fa  | dual - 86 / 14 | triple - 86 /  6 / 14 | quad - 86 / 14 / 14 / 14 |  Iranian (Farsi)  #
-#  th  | dual - 85 / 15 | triple - 85 /  5 / 15 | quad - 85 / 15 / 15 / 15 |  Thai             #
-#  no  | dual - 84 / 16 | triple - 84 /  4 / 16 | quad - 84 / 16 / 16 / 16 |  Norwegian        #
-#  is  | dual - 83 / 17 | triple - 83 /  3 / 17 | quad - 83 / 17 / 17 / 17 |  Icelandic        #
-#  sv  | dual - 82 / 18 | triple - 82 /  2 / 18 | quad - 82 / 18 / 18 / 18 |  Swedish          #
-#  tr  | dual - 81 / 19 | triple - 81 /  1 / 19 | quad - 81 / 19 / 19 / 19 |  Turkish          #
-# hdr  | dual -  2 / 98 | triple -  2 /  2 / 98 | quad -  2 /  2 /  2 / 98 |  HDR-Content      #
-#  4k  | dual -  1 / 99 | triple -  1 /  1 / 99 | quad -  1 /  1 /  1 / 99 |  4k-Content       #
-## Overlay-Flags (https://www.countries-ofthe-world.com/flags-of-the-world.html) ###############
+####################################################################################################################################
+## Language / 4k / HDR Weight Distributions for single and dual audio media items ##################################################
+####################################################################################################################################
+## ISO-Language codes (https://www.loc.gov/standards/iso639-2/php/code_list.php) ###################################################
+## Overlay-Flags (https://www.countries-ofthe-world.com/flags-of-the-world.html) ###################################################
+####################################################################################################################################
+# German           | de  | dual - 99 /  1 | de  | triple - 99 /  1 /  x | de  | quad - 99 /  1 /  x /  x | de  |  German           #
+# English          | en  | dual - 98 /  2 | en  | triple - 98 /  2 /  x | en  | quad - 98 /  2 /  x /  x | en  |  English          #
+# French           | fr  | dual - 97 /  3 | fr  | triple - 97 /  3 /  x | fr  | quad - 97 /  3 /  x /  x | fr  |  French           #
+# Japanese         | ja  | dual - 96 /  4 | ja  | triple - 96 /  4 /  x | ja  | quad - 96 /  4 /  x /  x | ja  |  Japanese         #
+# Korean           | ko  | dual - 95 /  5 | ko  | triple - 95 /  5 /  x | ko  | quad - 95 /  5 /  x /  x | ko  |  Korean           #
+# Chinese          | zh  | dual - 94 /  6 | zh  | triple - 94 /  6 /  x | zh  | quad - 94 /  6 /  x /  x | zh  |  Chinese          #
+# Danish           | da  | dual - 93 /  7 | da  | triple - 93 /  7 /  x | da  | quad - 93 /  7 /  x /  x | da  |  Danish           #
+# Russian          | ru  | dual - 92 /  8 | ru  | triple - 92 /  8 /  x | ru  | quad - 92 /  8 /  x /  x | ru  |  Russian          #
+# Spanish          | es  | dual - 91 /  9 | es  | triple - 91 /  9 /  x | es  | quad - 91 /  9 /  x /  x | es  |  Spanish          #
+# Italian          | it  | dual - 90 / 10 | it  | triple - 90 / 10 /  x | it  | quad - 90 / 10 /  x /  x | it  |  Italian          #
+# Dutch            | nl  | dual - 89 / 11 | nl  | triple - 89 / 11 /  x | nl  | quad - 89 / 11 /  x /  x | nl  |  Dutch            #
+# Indian (Hindi)   | hi  | dual - 88 / 12 | hi  | triple - 88 / 12 /  x | hi  | quad - 88 / 12 /  x /  x | hi  |  Indian (Hindi)   #
+# Indian (Telugu)  | te  | dual - 87 / 13 | te  | triple - 87 / 13 /  x | te  | quad - 87 / 13 /  x /  x | te  |  Indian (Telugu)  #
+# Iranian (Farsi)  | fa  | dual - 86 / 14 | fa  | triple - 86 / 14 /  x | fa  | quad - 86 / 14 /  x /  x | fa  |  Iranian (Farsi)  #
+# Thai             | th  | dual - 85 / 15 | th  | triple - 85 / 15 /  x | th  | quad - 85 / 15 /  x /  x | th  |  Thai             #
+# Norwegian        | no  | dual - 84 / 16 | no  | triple - 84 / 16 /  x | no  | quad - 84 / 16 /  x /  x | no  |  Norwegian        #
+# Icelandic        | is  | dual - 83 / 17 | is  | triple - 83 / 17 /  x | is  | quad - 83 / 17 /  x /  x | is  |  Icelandic        #
+# Swedish          | sv  | dual - 82 / 18 | sv  | triple - 82 / 18 /  x | sv  | quad - 82 / 18 /  x /  x | sv  |  Swedish          #
+# Turkish          | tr  | dual - 81 / 19 | tr  | triple - 81 / 19 /  x | tr  | quad - 81 / 19 /  x /  x | tr  |  Turkish          #
+####################################################################################################################################
+## 4k OR HDR #######################################################################################################################
+####################################################################################################################################
+# HDR-Content      | hdr | dual -  x / 49 | hdr | triple -  x /  x / 49 | hdr | quad -  x /  x /  x /  x | hdr |  HDR-Content      #
+# 4k-Content       |  4k | dual -  x / 50 |  4k | triple -  x /  x / 50 |  4k | quad -  x /  x /  x /  x |  4k |  4k-Content       #
+####################################################################################################################################
+## 4k AND HDR ######################################################################################################################
+####################################################################################################################################
+# HDR-Content      | hdr | dual -  x /  x | hdr | triple -  x / 49 / 50 | hdr | quad -  x /  x / 49 / 50 | hdr |  HDR-Content      #
+# 4k-Content       |  4k | dual -  x /  x |  4k | triple -  x / 50 / 49 |  4k | quad -  x /  x / 50 / 49 |  4k |  4k-Content       #
+####################################################################################################################################
 templates:
   german:
     default:

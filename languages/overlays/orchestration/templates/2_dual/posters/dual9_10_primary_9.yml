@@ -26,11 +26,12 @@
 external_templates:
   - file: config/overlays/orchestration/templates/_items.yml
     template_variables:
+      positions: "dual9,dual10"
       count_gte: 2
       count_lt: 3
   - file: config/overlays/orchestration/templates/_overlays.yml
     template_variables:
-      positions: "dual8,dual9"
+      positions: "dual9,dual10"
       folder: posters
       positionX: 750
       positionY: 750

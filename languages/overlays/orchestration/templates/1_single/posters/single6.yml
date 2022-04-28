@@ -26,6 +26,7 @@
 external_templates:
   - file: config/overlays/orchestration/templates/_items.yml
     template_variables:
+      positions: single6
       count_gte: 1
       count_lt: 2
   - file: config/overlays/orchestration/templates/_overlays.yml

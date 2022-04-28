@@ -26,6 +26,7 @@
 external_templates:
   - file: config/overlays/orchestration/templates/_items.yml
     template_variables:
+      positions: "dual4,dual5"
       count_gte: 2
       count_lt: 3
   - file: config/overlays/orchestration/templates/_overlays.yml
