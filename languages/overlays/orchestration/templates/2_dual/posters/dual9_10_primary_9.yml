@@ -27,11 +27,13 @@ external_templates:
   - file: config/overlays/orchestration/templates/_items.yml
     template_variables:
       positions: "dual9,dual10"
+      # type: season / episode  # choose one if applicable and delete the '#' at the start of the line
       count_gte: 2
       count_lt: 3
   - file: config/overlays/orchestration/templates/_overlays.yml
     template_variables:
       positions: "dual9,dual10"
+      type: <<type>>
       folder: posters
       positionX: 750
       positionY: 750
@@ -39,77 +41,77 @@ external_templates:
 overlays:
   <<type>>_german_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: de}
-      - {name: german, type: <<type>>, file: german}
+      - {name: items, language: de}
+      - {name: german}
   <<type>>_english_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: en}
-      - {name: english, type: <<type>>, file: english}
+      - {name: items, language: en}
+      - {name: english}
   <<type>>_french_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: fr}
-      - {name: french, type: <<type>>, file: french}
+      - {name: items, language: fr}
+      - {name: french}
   <<type>>_japanese_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: ja}
-      - {name: japanese, type: <<type>>, file: japanese}
+      - {name: items, language: ja}
+      - {name: japanese}
   <<type>>_korean_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: ko}
-      - {name: korean, type: <<type>>, file: korean}
+      - {name: items, language: ko}
+      - {name: korean}
   <<type>>_chinese_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: zh}
-      - {name: chinese, type: <<type>>, file: chinese}
+      - {name: items, language: zh}
+      - {name: chinese}
   <<type>>_danish_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: da}
-      - {name: danish, type: <<type>>, file: danish}
+      - {name: items, language: da}
+      - {name: danish}
   <<type>>_russian_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: ru}
-      - {name: russian, type: <<type>>, file: russian}
+      - {name: items, language: ru}
+      - {name: russian}
   <<type>>_spanish_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: es}
-      - {name: spanish, type: <<type>>, file: spanish}
+      - {name: items, language: es}
+      - {name: spanish}
   <<type>>_italian_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: it}
-      - {name: italian, type: <<type>>, file: italian}
+      - {name: items, language: it}
+      - {name: italian}
   <<type>>_dutch_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: nl}
-      - {name: dutch, type: <<type>>, file: dutch}
+      - {name: items, language: nl}
+      - {name: dutch}
   <<type>>_indian_hindi_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: hi}
-      - {name: indian_hindi, type: <<type>>, file: indian}
+      - {name: items, language: hi}
+      - {name: indian_hindi}
   <<type>>_indian_telugu_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: te}
-      - {name: indian_telugu, type: <<type>>, file: indian}
+      - {name: items, language: te}
+      - {name: indian_telugu}
   <<type>>_iranian_farsi_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: fa}
-      - {name: iranian_farsi, type: <<type>>, file: iranian}
+      - {name: items, language: fa}
+      - {name: iranian_farsi}
   <<type>>_thai_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: th}
-      - {name: thai, type: <<type>>, file: thai}
+      - {name: items, language: th}
+      - {name: thai}
   <<type>>_norwegian_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: no}
-      - {name: norwegian, type: <<type>>, file: norwegian}
+      - {name: items, language: no}
+      - {name: norwegian}
   <<type>>_icelandic_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: is}
-      - {name: icelandic, type: <<type>>, file: icelandic}
+      - {name: items, language: is}
+      - {name: icelandic}
   <<type>>_swedish_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: sv}
-      - {name: swedish, type: <<type>>, file: swedish}
+      - {name: items, language: sv}
+      - {name: swedish}
   <<type>>_turkish_dual9_10_spot9:
     template:
-      - {name: items, type: <<type>>, language: tr}
-      - {name: turkish, type: <<type>>, file: turkish}
+      - {name: items, language: tr}
+      - {name: turkish}

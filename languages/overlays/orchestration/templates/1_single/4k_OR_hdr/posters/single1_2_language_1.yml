@@ -1,0 +1,211 @@
+# Overlay distribution with Cpt Kuesels default config
+#  In this file the configs are for: spot1
+#
+#  ______ ______ ______ ______
+# |spot1 |spot2 |spot3 |spot4 |
+# |______|______|______|______|
+# |spot24|             |spot5 |
+# |______|             |______|
+# |spot23|             |spot6 |
+# |______|             |______|
+# |spot22|             |spot7 |
+# |______|             |______|
+# |spot21|             |spot8 |
+# |______|             |______|
+# |spot20|             |spot9 |
+# |______|             |______|
+# |spot19|             |spot10|
+# |______|             |______|
+# |spot18|             |spot11|
+# |______|             |______|
+# |spot17|             |spot12|
+# |______|______ ______|______|
+# |spot16|spot15|spot14|spot13|
+# |______|______|______|______|
+
+external_templates:
+  - file: config/overlays/orchestration/templates/_items.yml
+    template_variables:
+      positions: "dual1,dual2"
+      # type: season / episode  # choose one if applicable and delete the '#' at the start of the line
+      count_gte: 1
+      count_lt: 2
+  - file: config/overlays/orchestration/templates/_overlays.yml
+    template_variables:
+      positions: "dual1,dual2"
+      type: <<type>>
+      folder: posters
+      positionX: 0
+      positionY: 0
+      spot: spot1
+overlays:
+  <<type>>_german_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: de, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_german_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: de, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_english_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: en, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_english_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: en, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_french_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: fr, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_french_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: fr, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_japanese_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: ja, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_japanese_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: ja, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_korean_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: ko, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_korean_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: ko, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_chinese_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: zh, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_chinese_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: zh, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_danish_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: da, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_danish_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: da, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_russian_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: ru, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_russian_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: ru, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_spanish_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: es, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_spanish_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: es, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_italian_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: it, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_italian_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: it, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_dutch_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: nl, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_dutch_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: nl, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_indian_hindi_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: hi, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_indian_hindi_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: hi, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_indian_telugu_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: te, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_indian_telugu_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: te, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_iranian_farsi_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: fa, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_iranian_farsi_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: fa, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_thai_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: th, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_thai_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: th, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_norwegian_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: no, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_norwegian_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: no, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_icelandic_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: is, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_icelandic_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: is, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_swedish_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: sv, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_swedish_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: sv, is_hdr: true}
+      - {name: hdr}
+
+  <<type>>_turkish_UHD_dual1_2_spot1:
+    template:
+      - {name: items, language: tr, is_4k: 4k, not_4k: null}
+      - {name: uhd}
+  <<type>>_turkish_HDR_dual1_2_spot1:
+    template:
+      - {name: items, language: tr, is_hdr: true}
+      - {name: hdr}

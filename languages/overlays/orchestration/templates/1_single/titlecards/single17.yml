@@ -19,11 +19,13 @@ external_templates:
   - file: config/overlays/orchestration/templates/_items.yml
     template_variables:
       positions: single17
+      # type: season / episode  # <-- choose one if applicable and delete the '#' at the start of the line
       count_gte: 1
       count_lt: 2
   - file: config/overlays/orchestration/templates/_overlays.yml
     template_variables:
       positions: single17
+      type: <<type>>
       folder: titlecards
       positionX: 720
       positionY: 900
@@ -31,77 +33,77 @@ external_templates:
 overlays:
   <<type>>_german_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: de}
-      - {name: german, type: <<type>>, file: german}
+      - {name: <<type>>_items, language: de}
+      - {name: german}
   <<type>>_english_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: en}
-      - {name: english, type: <<type>>, file: english}
+      - {name: <<type>>_items, language: en}
+      - {name: english}
   <<type>>_french_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: fr}
-      - {name: french, type: <<type>>, file: french}
+      - {name: <<type>>_items, language: fr}
+      - {name: french}
   <<type>>_japanese_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: ja}
-      - {name: japanese, type: <<type>>, file: japanese}
+      - {name: <<type>>_items, language: ja}
+      - {name: japanese}
   <<type>>_korean_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: ko}
-      - {name: korean, type: <<type>>, file: korean}
+      - {name: <<type>>_items, language: ko}
+      - {name: korean}
   <<type>>_chinese_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: zh}
-      - {name: chinese, type: <<type>>, file: chinese}
+      - {name: <<type>>_items, language: zh}
+      - {name: chinese}
   <<type>>_danish_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: da}
-      - {name: danish, type: <<type>>, file: danish}
+      - {name: <<type>>_items, language: da}
+      - {name: danish}
   <<type>>_russian_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: ru}
-      - {name: russian, type: <<type>>, file: russian}
+      - {name: <<type>>_items, language: ru}
+      - {name: russian}
   <<type>>_spanish_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: es}
-      - {name: spanish, type: <<type>>, file: spanish}
+      - {name: <<type>>_items, language: es}
+      - {name: spanish}
   <<type>>_italian_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: it}
-      - {name: italian, type: <<type>>, file: italian}
+      - {name: <<type>>_items, language: it}
+      - {name: italian}
   <<type>>_dutch_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: nl}
-      - {name: dutch, type: <<type>>, file: dutch}
+      - {name: <<type>>_items, language: nl}
+      - {name: dutch}
   <<type>>_indian_hindi_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: hi}
-      - {name: indian_hindi, type: <<type>>, file: indian}
+      - {name: <<type>>_items, language: hi}
+      - {name: indian_hindi}
   <<type>>_indian_telugu_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: te}
-      - {name: indian_telugu, type: <<type>>, file: indian}
+      - {name: <<type>>_items, language: te}
+      - {name: indian_telugu}
   <<type>>_iranian_farsi_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: fa}
-      - {name: iranian_farsi, type: <<type>>, file: iranian}
+      - {name: <<type>>_items, language: fa}
+      - {name: iranian_farsi}
   <<type>>_thai_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: th}
-      - {name: thai, type: <<type>>, file: thai}
+      - {name: <<type>>_items, language: th}
+      - {name: thai}
   <<type>>_norwegian_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: no}
-      - {name: norwegian, type: <<type>>, file: norwegian}
+      - {name: <<type>>_items, language: no}
+      - {name: norwegian}
   <<type>>_icelandic_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: is}
-      - {name: icelandic, type: <<type>>, file: icelandic}
+      - {name: <<type>>_items, language: is}
+      - {name: icelandic}
   <<type>>_swedish_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: sv}
-      - {name: swedish, type: <<type>>, file: swedish}
+      - {name: <<type>>_items, language: sv}
+      - {name: swedish}
   <<type>>_turkish_single17:
     template:
-      - {name: <<item_types>>_items, type: <<type>>, language: tr}
-      - {name: turkish, type: <<type>>, file: turkish}
+      - {name: <<type>>_items, language: tr}
+      - {name: turkish}
