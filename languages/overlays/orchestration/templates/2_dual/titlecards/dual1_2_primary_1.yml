@@ -33,77 +33,77 @@ external_templates:
 overlays:
   <<type>>_german_dual1_2_spot1:
     template:
-      - {name: items, language: de}
+      - {name: <<_type>>_items, language: de}
       - {name: german}
   <<type>>_english_dual1_2_spot1:
     template:
-      - {name: items, language: en}
+      - {name: <<_type>>_items, language: en}
       - {name: english}
   <<type>>_french_dual1_2_spot1:
     template:
-      - {name: items, language: fr}
+      - {name: <<_type>>_items, language: fr}
       - {name: french}
   <<type>>_japanese_dual1_2_spot1:
     template:
-      - {name: items, language: ja}
+      - {name: <<_type>>_items, language: ja}
       - {name: japanese}
   <<type>>_korean_dual1_2_spot1:
     template:
-      - {name: items, language: ko}
+      - {name: <<_type>>_items, language: ko}
       - {name: korean}
   <<type>>_chinese_dual1_2_spot1:
     template:
-      - {name: items, language: zh}
+      - {name: <<_type>>_items, language: zh}
       - {name: chinese}
   <<type>>_danish_dual1_2_spot1:
     template:
-      - {name: items, language: da}
+      - {name: <<_type>>_items, language: da}
       - {name: danish}
   <<type>>_russian_dual1_2_spot1:
     template:
-      - {name: items, language: ru}
+      - {name: <<_type>>_items, language: ru}
       - {name: russian}
   <<type>>_spanish_dual1_2_spot1:
     template:
-      - {name: items, language: es}
+      - {name: <<_type>>_items, language: es}
       - {name: spanish}
   <<type>>_italian_dual1_2_spot1:
     template:
-      - {name: items, language: it}
+      - {name: <<_type>>_items, language: it}
       - {name: italian}
   <<type>>_dutch_dual1_2_spot1:
     template:
-      - {name: items, language: nl}
+      - {name: <<_type>>_items, language: nl}
       - {name: dutch}
   <<type>>_indian_hindi_dual1_2_spot1:
     template:
-      - {name: items, language: hi}
+      - {name: <<_type>>_items, language: hi}
       - {name: indian_hindi}
   <<type>>_indian_telugu_dual1_2_spot1:
     template:
-      - {name: items, language: te}
+      - {name: <<_type>>_items, language: te}
       - {name: indian_telugu}
   <<type>>_iranian_farsi_dual1_2_spot1:
     template:
-      - {name: items, language: fa}
+      - {name: <<_type>>_items, language: fa}
       - {name: iranian_farsi}
   <<type>>_thai_dual1_2_spot1:
     template:
-      - {name: items, language: th}
+      - {name: <<_type>>_items, language: th}
       - {name: thai}
   <<type>>_norwegian_dual1_2_spot1:
     template:
-      - {name: items, language: no}
+      - {name: <<_type>>_items, language: no}
       - {name: norwegian}
   <<type>>_icelandic_dual1_2_spot1:
     template:
-      - {name: items, language: is}
+      - {name: <<_type>>_items, language: is}
       - {name: icelandic}
   <<type>>_swedish_dual1_2_spot1:
     template:
-      - {name: items, language: sv}
+      - {name: <<_type>>_items, language: sv}
       - {name: swedish}
   <<type>>_turkish_dual1_2_spot1:
     template:
-      - {name: items, language: tr}
+      - {name: <<_type>>_items, language: tr}
       - {name: turkish}

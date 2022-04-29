@@ -12,7 +12,6 @@ templates:
         audio_language: <<language>>
         label: <<positions>>
         hdr: <<is_hdr>>
-    collection_level: <<type>>
     filters:
       resolution.not: <<not_4k>>
       resolution: <<is_4k>>
@@ -49,7 +48,6 @@ templates:
         audio_language: <<language>>
         label: <<positions>>
         hdr: <<is_hdr>>
-    collection_level: <<type>>
     filters:
       episodes:
         percentage: <<percentage>>

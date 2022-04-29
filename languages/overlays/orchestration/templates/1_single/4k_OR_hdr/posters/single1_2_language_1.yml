@@ -41,171 +41,171 @@ external_templates:
 overlays:
   <<type>>_german_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: de, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: de, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_german_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: de, is_hdr: true}
+      - {name: <<_type>>_items, language: de, is_hdr: true}
       - {name: hdr}
 
   <<type>>_english_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: en, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: en, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_english_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: en, is_hdr: true}
+      - {name: <<_type>>_items, language: en, is_hdr: true}
       - {name: hdr}
 
   <<type>>_french_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: fr, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: fr, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_french_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: fr, is_hdr: true}
+      - {name: <<_type>>_items, language: fr, is_hdr: true}
       - {name: hdr}
 
   <<type>>_japanese_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: ja, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: ja, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_japanese_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: ja, is_hdr: true}
+      - {name: <<_type>>_items, language: ja, is_hdr: true}
       - {name: hdr}
 
   <<type>>_korean_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: ko, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: ko, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_korean_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: ko, is_hdr: true}
+      - {name: <<_type>>_items, language: ko, is_hdr: true}
       - {name: hdr}
 
   <<type>>_chinese_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: zh, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: zh, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_chinese_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: zh, is_hdr: true}
+      - {name: <<_type>>_items, language: zh, is_hdr: true}
       - {name: hdr}
 
   <<type>>_danish_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: da, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: da, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_danish_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: da, is_hdr: true}
+      - {name: <<_type>>_items, language: da, is_hdr: true}
       - {name: hdr}
 
   <<type>>_russian_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: ru, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: ru, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_russian_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: ru, is_hdr: true}
+      - {name: <<_type>>_items, language: ru, is_hdr: true}
       - {name: hdr}
 
   <<type>>_spanish_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: es, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: es, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_spanish_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: es, is_hdr: true}
+      - {name: <<_type>>_items, language: es, is_hdr: true}
       - {name: hdr}
 
   <<type>>_italian_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: it, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: it, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_italian_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: it, is_hdr: true}
+      - {name: <<_type>>_items, language: it, is_hdr: true}
       - {name: hdr}
 
   <<type>>_dutch_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: nl, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: nl, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_dutch_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: nl, is_hdr: true}
+      - {name: <<_type>>_items, language: nl, is_hdr: true}
       - {name: hdr}
 
   <<type>>_indian_hindi_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: hi, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: hi, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_indian_hindi_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: hi, is_hdr: true}
+      - {name: <<_type>>_items, language: hi, is_hdr: true}
       - {name: hdr}
 
   <<type>>_indian_telugu_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: te, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: te, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_indian_telugu_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: te, is_hdr: true}
+      - {name: <<_type>>_items, language: te, is_hdr: true}
       - {name: hdr}
 
   <<type>>_iranian_farsi_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: fa, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: fa, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_iranian_farsi_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: fa, is_hdr: true}
+      - {name: <<_type>>_items, language: fa, is_hdr: true}
       - {name: hdr}
 
   <<type>>_thai_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: th, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: th, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_thai_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: th, is_hdr: true}
+      - {name: <<_type>>_items, language: th, is_hdr: true}
       - {name: hdr}
 
   <<type>>_norwegian_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: no, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: no, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_norwegian_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: no, is_hdr: true}
+      - {name: <<_type>>_items, language: no, is_hdr: true}
       - {name: hdr}
 
   <<type>>_icelandic_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: is, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: is, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_icelandic_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: is, is_hdr: true}
+      - {name: <<_type>>_items, language: is, is_hdr: true}
       - {name: hdr}
 
   <<type>>_swedish_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: sv, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: sv, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_swedish_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: sv, is_hdr: true}
+      - {name: <<_type>>_items, language: sv, is_hdr: true}
       - {name: hdr}
 
   <<type>>_turkish_UHD_dual1_2_spot1:
     template:
-      - {name: items, language: tr, is_4k: 4k, not_4k: null}
+      - {name: <<_type>>_items, language: tr, is_4k: 4k, not_4k: null}
       - {name: uhd}
   <<type>>_turkish_HDR_dual1_2_spot1:
     template:
-      - {name: items, language: tr, is_hdr: true}
+      - {name: <<_type>>_items, language: tr, is_hdr: true}
       - {name: hdr}

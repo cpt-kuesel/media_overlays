@@ -7,7 +7,6 @@ templates:
       all:
         audio_language: <<language>>
         label: <<positions>>
-    collection_level: <<type>>
     filters:
       audio_language.count_gte: <<count_gte>>
       audio_language.count_lt: <<count_lt>>
@@ -33,7 +32,6 @@ templates:
       all:
         audio_language: <<language>>
         label: <<positions>>
-    collection_level: <<type>>
     filters:
       episodes:
         percentage: <<percentage>>
