@@ -1,7 +1,7 @@
 # Overlay distribution with Cpt Kuesels default config
 #
 #                                ##################################
-#                                # <<spot>> | <<posX>> | <<posY>> #
+#                                # [ spot ] | [ posX ] | [ posY ] #
 #                                #__________|__________|__________#
 #                                #  spot1   |   0      |   0      #
 #  ______ ______ ______ ______   #  spot2   |   250    |   0      #
@@ -29,49 +29,80 @@
 #                                #  spot24  |   0      |   150    #
 #                                ##################################
 
-# <<type>> should be one of these:  movie | show | season
-# if it is 'season' comment in the first template variable for _items.yml
+# Prep:
+# Copy this file into your overlay folder.
+# Then go through this list one by one and search+replace every <<attribute>> you see.
 
-# <<lang_codes>> should be a comma separated list of ISO639-2 codes of the languages for which you are applying overlays, i.e.
+# 1.)
+# Provide the type of media item this overlay builder will use, i.e.
+# movie | show | season
+#
+# type: <<type>>
+# if it is 'season' replace '# type: season' with 'type: season'
+
+# 2.)
+# Provide a comma separated list of ISO639-2 codes of the languages for which you are applying overlays, i.e.
 # de | en,fr | ja,zh | no,sv
+#
+# lang_codes: <<lang_codes>>
 
-# <<language>> should be the name of the overlay file you are applying, i.e. english | french | german | 4k | hdr
+# 3.)
+# Provide the name of the overlay file you are applying, i.e.
+# english | french | german | 4k | hdr
+#
+# overlay: <<overlay>>
 
-# <<positions>> is a comma separated list of label values corresponding to the spots of the overlays you are applying, i.e.
+# 4.)
+# Provide a comma separated list of label values corresponding to the spots of the overlays you are applying, i.e.
 # single22 | dual1,dual2 | triple8,triple9,triple10 | quad15,quad16,quad17,quad18
+#
+# positions: <<positions>>
 
-# for the values of <<spot>>, <<posX>> and <<posY>> reference the above graphic and table.
+# 5.)
+# Provide the values of the chosen spot and its x-, y-coordinate according to the reference graphic and table above.
+#
+# spot: <<spot>>
+# posX: <<posX>>
+# posY: <<posY>>
+
+# 6.)
+# Provide a count of audio tracks. Add 1 to count+1.
+#
+# count: <<count>>
+# count+1: <<count+1>>
+
+# 7.)
+# finally rename this file.
+#
+# new file name: <<type>>_<<lang_codes>>_<<overlay>>_<<positions>>_<<spot>>.yml
 
 # keep in mind:
 # - spot should be a single value from the list of positions
-# - file_name is also a single language from the list of lang_codes
+# - overlay is also a single language from the list of lang_codes, exceptions for 4k and hdr
 # for multi-language overlays there need to be two files with the same values for <<positions>> and <<lang_codes>>
-# but different values for <<spot>> and <<language>>
+# but different values for <<spot>> and <<overlay>>
 # also change the count variables for _items.yml to count_gte: 2 and count_lt: 3
-
-# finally rename this file from [type]_[lang_codes]_[language]_[positions]_[spot].yml using the values you chose in here, i.e.
-# movie_en,fr_english_dual1,dual2_spot1.yml (paired with the file movie_en,fr_french_dual1,dual2_spot2.yml)
 
 external_templates:
   - file: config/overlays/orchestration/templates/_items.yml
     template_variables:
-      # type: season  # if applicable, delete the '#' at the start of the line
+      # type: season
       lang_codes: "<<lang_codes>>"
       positions: "<<positions>>"
-      count_gte: 1 # change to the number of audio tracks
-      count_lt: 2 # change to the number of audio tracks plus 1
+      count_gte: <<count>>
+      count_lt: <<count+1>>
   - file: config/overlays/orchestration/templates/_overlays.yml
     template_variables:
       type: <<type>>
       lang_codes: "<<lang_codes>>"
-      file: <<language>>
+      overlay: <<overlay>>
       folder: posters
       positions: "<<positions>>"
       spot: <<spot>>
       positionX: <<posX>>
       positionY: <<posY>>
 overlays:
-  <<type>>_<<lang_codes>>_<<language>>_<<positions>>_<<spot>>:
+  <<type>>_<<lang_codes>>_<<overlay>>_<<positions>>_<<spot>>:
     template:
       - {name: <<type>>_items}
-      - {name: <<file_name>>}
+      - {name: <<overlay>>}

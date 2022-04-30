@@ -61,3 +61,12 @@ templates:
         - <<label>>24
     collection_level: <<type>>
     item_label: <<default_labels>>
+  no_overlay_label:
+    optional:
+      - type
+      - hide_label #if you dont want the users to see these, add a label that you have added to their exclusion list
+    smart_filter:
+      label.not:
+        Overlay
+    label: <<hide_label>>
+    collection_level: <<type>>

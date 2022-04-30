@@ -37,12 +37,10 @@
 templates:
   german:
     default:
-      uhd_hdr:
-    default:
       weight: 99
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/german.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -50,12 +48,10 @@ templates:
 
   english:
     default:
-      uhd_hdr:
-    default:
       weight: 98
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/english.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -63,12 +59,10 @@ templates:
 
   french:
     default:
-      uhd_hdr:
-    default:
       weight: 97
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/french.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -76,12 +70,10 @@ templates:
 
   japanese:
     default:
-      uhd_hdr:
-    default:
       weight: 96
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/japanese.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -89,12 +81,10 @@ templates:
 
   korean:
     default:
-      uhd_hdr:
-    default:
       weight: 95
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/korean.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -102,12 +92,10 @@ templates:
 
   chinese:
     default:
-      uhd_hdr:
-    default:
       weight: 94
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/chinese.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -115,12 +103,10 @@ templates:
 
   danish:
     default:
-      uhd_hdr:
-    default:
       weight: 93
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/danish.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -128,12 +114,10 @@ templates:
 
   russian:
     default:
-      uhd_hdr:
-    default:
       weight: 92
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/russian.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -141,12 +125,10 @@ templates:
 
   spanish:
     default:
-      uhd_hdr:
-    default:
       weight: 91
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/spanish.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -154,12 +136,10 @@ templates:
 
   italian:
     default:
-      uhd_hdr:
-    default:
       weight: 90
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/italian.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -167,12 +147,10 @@ templates:
 
   dutch:
     default:
-      uhd_hdr:
-    default:
       weight: 89
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/dutch.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -180,12 +158,10 @@ templates:
 
   indian_hindi:
     default:
-      uhd_hdr:
-    default:
       weight: 88
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/indian.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -193,12 +169,10 @@ templates:
 
   indian_telugu:
     default:
-      uhd_hdr:
-    default:
       weight: 87
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/indian.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -206,12 +180,10 @@ templates:
 
   iranian_farsi:
     default:
-      uhd_hdr:
-    default:
       weight: 86
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/iranian.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -219,12 +191,10 @@ templates:
 
   thai:
     default:
-      uhd_hdr:
-    default:
       weight: 85
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/thai.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -232,12 +202,10 @@ templates:
 
   norwegian:
     default:
-      uhd_hdr:
-    default:
       weight: 84
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/norwegian.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -245,12 +213,10 @@ templates:
 
   icelandic:
     default:
-      uhd_hdr:
-    default:
       weight: 83
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/icelandic.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -258,12 +224,10 @@ templates:
 
   swedish:
     default:
-      uhd_hdr:
-    default:
       weight: 82
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/swedish.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -271,12 +235,10 @@ templates:
 
   turkish:
     default:
-      uhd_hdr:
-    default:
       weight: 81
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/turkish.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -284,12 +246,10 @@ templates:
 
   uhd:
     default:
-      uhd_hdr:
-    default:
       weight: 50
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/4k.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
@@ -297,12 +257,10 @@ templates:
 
   hdr:
     default:
-      uhd_hdr:
-    default:
       weight: 49
     overlay:
-      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/<<file>>.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<overlay>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]
+      file: config/overlays/<<folder>>/hdr.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
