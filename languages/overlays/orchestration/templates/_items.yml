@@ -5,7 +5,7 @@ templates:
       - positions
     plex_search:
       all:
-        audio_language: <<language>>
+        audio_language: <<lang_codes>>
         label: <<positions>>
     filters:
       audio_language.count_gte: <<count_gte>>
@@ -16,7 +16,7 @@ templates:
       - positions
     plex_search:
       all:
-        audio_language: <<language>>
+        audio_language: <<lang_codes>>
         label: <<positions>>
     collection_level: <<type>>
     filters:
@@ -30,11 +30,12 @@ templates:
       percentage: 100
     plex_search:
       all:
-        audio_language: <<language>>
+        audio_language: <<lang_codes>>
         label: <<positions>>
     filters:
       episodes:
         percentage: <<percentage>>
+        audio_language: <<lang_codes>>
         audio_language.count_gte: <<count_gte>>
         audio_language.count_lt: <<count_lt>>
   season_items:
@@ -45,11 +46,12 @@ templates:
       percentage: 100
     plex_search:
       all:
-        audio_language: <<language>>
+        audio_language: <<lang_codes>>
         label: <<positions>>
     collection_level: <<type>>
     filters:
       episodes:
         percentage: <<percentage>>
+        audio_language: <<lang_codes>>
         audio_language.count_gte: <<count_gte>>
         audio_language.count_lt: <<count_lt>>

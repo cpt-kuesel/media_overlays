@@ -36,273 +36,273 @@
 ####################################################################################################################################
 templates:
   german:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 99
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<german>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/german.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   english:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 98
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<english>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/english.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   french:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 97
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<french>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/french.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   japanese:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 96
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<japanese>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/japanese.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   korean:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 95
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<korean>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/korean.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   chinese:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 94
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<chinese>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/chinese.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   danish:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 93
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<danish>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/danish.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   russian:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 92
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<russian>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/russian.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   spanish:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 91
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<spanish>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/spanish.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   italian:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 90
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<italian>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/italian.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   dutch:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 89
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<dutch>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/dutch.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   indian_hindi:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 88
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<indian_hindi>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/indian.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   indian_telugu:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 87
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<indian_telugu>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/indian.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   iranian_farsi:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 86
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<iranian_farsi>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/iranian.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   thai:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 85
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<thai>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/thai.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   norwegian:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 84
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<norwegian>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/norwegian.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   icelandic:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 83
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<icelandic>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/icelandic.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   swedish:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 82
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<swedish>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/swedish.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   turkish:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 81
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<turkish>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/turkish.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   uhd:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 50
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<uhd>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/4k.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>
       y_coordinate: <<positionY>>
 
   hdr:
-    optional:
-      - uhd_hdr
+    default:
+      uhd_hdr:
     default:
       weight: 49
     overlay:
-      name: <<type>>_<<folder>>_{<<positions>>}_<hdr>_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
-      file: config/overlays/<<folder>>/hdr.png
+      name: <<type>>_<<folder>>_(<<lang_codes>>)_<<file>>_{<<positions>>}_<<spot>>_[<<positionX>>/<<positionY>>]<<uhd_hdr>>
+      file: config/overlays/<<folder>>/<<file>>.png
       weight: <<weight>>
       group: <<spot>>
       x_coordinate: <<positionX>>

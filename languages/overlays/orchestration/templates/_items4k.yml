@@ -9,7 +9,7 @@ templates:
       is_hdr: false
     plex_search:
       all:
-        audio_language: <<language>>
+        audio_language: <<lang_codes>>
         label: <<positions>>
         hdr: <<is_hdr>>
     filters:
@@ -26,7 +26,7 @@ templates:
       is_hdr: false
     plex_search:
       all:
-        audio_language: <<language>>
+        audio_language: <<lang_codes>>
         label: <<positions>>
         hdr: <<is_hdr>>
     collection_level: <<type>>
@@ -45,7 +45,7 @@ templates:
       is_hdr: false
     plex_search:
       all:
-        audio_language: <<language>>
+        audio_language: <<lang_codes>>
         label: <<positions>>
         hdr: <<is_hdr>>
     filters:
@@ -53,6 +53,7 @@ templates:
         percentage: <<percentage>>
         resolution.not: <<not_4k>>
         resolution: <<is_4k>>
+        audio_language: <<lang_codes>>
         audio_language.count_gte: <<count_gte>>
         audio_language.count_lt: <<count_lt>>
   season_items:
@@ -65,7 +66,7 @@ templates:
       is_hdr: false
     plex_search:
       all:
-        audio_language: <<language>>
+        audio_language: <<lang_codes>>
         label: <<positions>>
         hdr: <<is_hdr>>
     collection_level: <<type>>
@@ -74,5 +75,6 @@ templates:
         percentage: <<percentage>>
         resolution.not: <<not_4k>>
         resolution: <<is_4k>>
+        audio_language: <<lang_codes>>
         audio_language.count_gte: <<count_gte>>
         audio_language.count_lt: <<count_lt>>

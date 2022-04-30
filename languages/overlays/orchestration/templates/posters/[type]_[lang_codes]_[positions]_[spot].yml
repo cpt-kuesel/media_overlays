@@ -1,0 +1,77 @@
+# Overlay distribution with Cpt Kuesels default config
+#
+#                                ##################################
+#                                # <<spot>> | <<posX>> | <<posY>> #
+#                                #__________|__________|__________#
+#                                #  spot1   |   0      |   0      #
+#  ______ ______ ______ ______   #  spot2   |   250    |   0      #
+# |spot1 |spot2 |spot3 |spot4 |  #  spot3   |   500    |   0      #
+# |______|______|______|______|  #  spot4   |   750    |   0      #
+# |spot24|             |spot5 |  #  spot5   |   750    |   150    #
+# |______|             |______|  #  spot6   |   750    |   300    #
+# |spot23|             |spot6 |  #  spot7   |   750    |   450    #
+# |______|             |______|  #  spot8   |   750    |   600    #
+# |spot22|             |spot7 |  #  spot9   |   750    |   750    #
+# |______|             |______|  #  spot10  |   750    |   900    #
+# |spot21|             |spot8 |  #  spot11  |   750    |   1050   #
+# |______|             |______|  #  spot12  |   750    |   1200   #
+# |spot20|             |spot9 |  #  spot13  |   750    |   1350   #
+# |______|             |______|  #  spot14  |   500    |   1350   #
+# |spot19|             |spot10|  #  spot15  |   250    |   1350   #
+# |______|             |______|  #  spot16  |   0      |   1350   #
+# |spot18|             |spot11|  #  spot17  |   0      |   1200   #
+# |______|             |______|  #  spot18  |   0      |   1050   #
+# |spot17|             |spot12|  #  spot19  |   0      |   900    #
+# |______|______ ______|______|  #  spot20  |   0      |   750    #
+# |spot16|spot15|spot14|spot13|  #  spot21  |   0      |   600    #
+# |______|______|______|______|  #  spot22  |   0      |   450    #
+#                                #  spot23  |   0      |   300    #
+#                                #  spot24  |   0      |   150    #
+#                                ##################################
+
+# <<type>> should be one of these:  movie | show | season
+# if it is 'season' comment in the first template variable for _items.yml
+
+# <<lang_codes>> should be a comma separated list of ISO639-2 codes of the languages for which you are applying overlays, i.e.
+# de | en,fr | ja,zh | no,sv
+
+# <<language>> should be the name of the overlay file you are applying, i.e. english | french | german | 4k | hdr
+
+# <<positions>> is a comma separated list of label values corresponding to the spots of the overlays you are applying, i.e.
+# single22 | dual1,dual2 | triple8,triple9,triple10 | quad15,quad16,quad17,quad18
+
+# for the values of <<spot>>, <<posX>> and <<posY>> reference the above graphic and table.
+
+# keep in mind:
+# - spot should be a single value from the list of positions
+# - file_name is also a single language from the list of lang_codes
+# for multi-language overlays there need to be two files with the same values for <<positions>> and <<lang_codes>>
+# but different values for <<spot>> and <<language>>
+# also change the count variables for _items.yml to count_gte: 2 and count_lt: 3
+
+# finally rename this file from [type]_[lang_codes]_[language]_[positions]_[spot].yml using the values you chose in here, i.e.
+# movie_en,fr_english_dual1,dual2_spot1.yml (paired with the file movie_en,fr_french_dual1,dual2_spot2.yml)
+
+external_templates:
+  - file: config/overlays/orchestration/templates/_items.yml
+    template_variables:
+      # type: season  # if applicable, delete the '#' at the start of the line
+      lang_codes: "<<lang_codes>>"
+      positions: "<<positions>>"
+      count_gte: 1 # change to the number of audio tracks
+      count_lt: 2 # change to the number of audio tracks plus 1
+  - file: config/overlays/orchestration/templates/_overlays.yml
+    template_variables:
+      type: <<type>>
+      lang_codes: "<<lang_codes>>"
+      file: <<language>>
+      folder: posters
+      positions: "<<positions>>"
+      spot: <<spot>>
+      positionX: <<posX>>
+      positionY: <<posY>>
+overlays:
+  <<type>>_<<lang_codes>>_<<language>>_<<positions>>_<<spot>>:
+    template:
+      - {name: <<type>>_items}
+      - {name: <<file_name>>}
